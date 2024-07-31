@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width: 100%;
+            position:fixed;
+            height: 40px;
+            background-color: white;
+            top: 0px;
+        }
+        .a{
+            width: 150px;
+            position: absolute;
+            top:6px;
+            left: 20px;
+            font-size:20px;
+        }
+        .a:hover,.b:hover,.c:hover,.d:hover{
+            background-color:rgb(220, 234, 240);
+            opacity: 0.7;
+            
+        }
+        .a::before{
+            content:'→';
+        }
+        .a::after{
+            content: '⠆';
+        }
+        .b{
+            width: 80px;
+            position: absolute;
+            top:6px;
+            left: 1100px;
+            font-size:20px;
+        }
+        .b::before{
+            content: '→';
+        }
+        .c{
+            width: 90px;
+            position: absolute;
+            top:6px;
+            left: 1200px;
+            font-size:20px;
+
+        }
+        .c::before{
+            content: '→';
+        }
+        .c::after{
+            content: '☗';
+        }
+        .d{
+            width: 105px;
+            position: absolute;
+            top:8px;
+            left: 1320px;
+            font-size:20px;
+        }
+        .d::before{
+            content: '→';
+        }
+        .d::after{
+            content: '☎';
+        }
+        .ab{
+            position: absolute;
+            left: 580px;
+            background-color: #51c1d9;
+            top:450px;
+            border: solid 1px #51c1d9 ;
+            width:330px;
+            height: 60px;  
+        }
+        .br{
+            position: absolute;
+            bottom:0px;
+            left: 100px;
+            background-color:;
+            color: white;
+            font-size: 55px;
+        }
+        .ar{
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 14px;
+            color: white;
+            font-size: 55px;
+            background-color:rgba(68,181,213,255);
+        }
+        .ar1{
+            position: absolute;
+            bottom:-10px;
+            border: solid 2px;
+            width: 100px;
+            height: 75px;
+            background-color:rgb(40, 37, 37);
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="a">BR Architects</div>
+        <div class="b">Project</div>
+        <div class="c">About</div>
+        <div class="d">Contact</div>
+    </div>
+        <img src="https://media.architecturaldigest.com/photos/56bdfb97f80b269a4abafdb3/master/pass/steel-buildings-03.jpg" width="100%" height="100%">
+    <div class="ab">
+        <div class="ar1">
+            <div class="ar">
+                BR
+            </div>
+        </div>
+        <div class="br"> Architects</div>
+    </div>
+    
+</body>
+</html>
